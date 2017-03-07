@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tomee>
+    <Resource id="MemoryDB" type="DataSource">
+        JdbcDriver = org.h2.Driver
+        JdbcUrl = jdbc:h2:~/target/h2-2
+        jtaManaged = true
+        UserName = user
+        Password = user
+    </Resource>
+</tomee>
