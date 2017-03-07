@@ -9,8 +9,7 @@ import javax.ws.rs.core.Response;
 /**
  * Created by miguel on 06/03/2017.
  */
-@Stateless
-@Path("/Project")
+@Path("/project")
 public interface ProjectResource {
 
     @GET

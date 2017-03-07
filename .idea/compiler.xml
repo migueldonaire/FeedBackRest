@@ -9,7 +9,7 @@
         <module name="FeedBackRest" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
+    <bytecodeTargetLevel target="1.8">
       <module name="FeedBackRest" target="1.8" />
     </bytecodeTargetLevel>
   </component>

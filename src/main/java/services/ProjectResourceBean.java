@@ -2,6 +2,7 @@ package services;
 import domain.Project;
 import persistence.ProjectPersistence;
 
+import javax.ejb.Stateless;
 import javax.inject.Inject;
 import javax.ws.rs.*;
 import javax.ws.rs.core.Response;
@@ -10,7 +11,7 @@ import javax.ws.rs.core.Response;
  * Created by miguel on 07/03/2017.
  */
 
-
+@Stateless
 public class ProjectResourceBean implements ProjectResource{
 
     @Inject

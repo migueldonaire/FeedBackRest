@@ -30,6 +30,7 @@
           <element id="library" level="project" name="Maven: javax.validation:validation-api:1.1.0.Final" />
           <element id="library" level="project" name="Maven: org.glassfish:javax.json:1.0.4" />
           <element id="library" level="project" name="Maven: com.h2database:h2:1.4.193" />
+          <element id="library" level="project" name="Maven: org.apache.openejb:javaee-api:6.0-6" />
         </element>
       </element>
       <element id="directory" name="META-INF">

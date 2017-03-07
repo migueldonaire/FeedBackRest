@@ -4,7 +4,6 @@
         JdbcDriver = org.h2.Driver
         JdbcUrl = jdbc:h2:~/target/h2-2
         jtaManaged = true
-        UserName = user
-        Password = user
+        UserName = sa
     </Resource>
 </tomee>
